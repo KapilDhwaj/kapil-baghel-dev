@@ -1,0 +1,22 @@
+[
+  {
+    "id": "msg_1791696215358_mxu2f",
+    "name": "Google Staff Recruiter",
+    "company": "Google DeepMind",
+    "email": "recruiter@deepmind.com",
+    "role": "AI Research Fellow",
+    "message": "Hello Kapil, impressive portfolio and certifications. We would love to connect.",
+    "createdAt": "2026-10-11T05:23:35.358Z",
+    "status": "new"
+  },
+  {
+    "id": "msg_seed_1",
+    "name": "Priya Sharma",
+    "company": "NextGen AI Labs",
+    "email": "priya.sharma@nextgenai.tech",
+    "role": "Machine Learning Research Intern",
+    "message": "Hi Kapil, we reviewed your work on RailSync AI and were impressed by your grasp of ML regression and data pipelines. We would love to discuss a 6-month research internship.",
+    "createdAt": "2026-10-08T14:30:00.000Z",
+    "status": "reviewed"
+  }
+]

@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Background foliage gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c22" />
+      <stop offset="50%" stop-color="#1c3b2d" />
+      <stop offset="100%" stop-color="#0f2119" />
+    </linearGradient>
+    <linearGradient id="leafGrad1" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#3d7a4b" />
+      <stop offset="100%" stop-color="#1b4526" />
+    </linearGradient>
+    <linearGradient id="leafGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#55995f" />
+      <stop offset="100%" stop-color="#245a33" />
+    </linearGradient>
+    <linearGradient id="leafGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#69b876" />
+      <stop offset="100%" stop-color="#2c693a" />
+    </linearGradient>
+
+    <!-- Skin tones -->
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#caa282" />
+      <stop offset="50%" stop-color="#b88c69" />
+      <stop offset="100%" stop-color="#9a6e4d" />
+    </linearGradient>
+    <linearGradient id="neckShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#845738" />
+      <stop offset="100%" stop-color="#694026" />
+    </linearGradient>
+
+    <!-- Hair gradient -->
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2321" />
+      <stop offset="60%" stop-color="#1a1413" />
+      <stop offset="100%" stop-color="#0e0a09" />
+    </linearGradient>
+
+    <!-- Sunglasses gradient -->
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#323c4a" />
+      <stop offset="50%" stop-color="#19202a" />
+      <stop offset="100%" stop-color="#0c1117" />
+    </linearGradient>
+    <linearGradient id="glassReflection" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45" />
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Plaid shirt pattern -->
+    <pattern id="plaidPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#29392e" />
+      <rect width="20" height="40" fill="#1b251f" opacity="0.85" />
+      <rect width="40" height="20" fill="#17211a" opacity="0.85" />
+      <line x1="0" y1="20" x2="40" y2="20" stroke="#3d5444" stroke-width="1.5" />
+      <line x1="20" y1="0" x2="20" y2="40" stroke="#3d5444" stroke-width="1.5" />
+    </pattern>
+
+    <!-- Clip Path for Circular Frame -->
+    <clipPath id="circleClip">
+      <circle cx="250" cy="250" r="248" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#circleClip)">
+    <!-- Background Wall / Ambient -->
+    <rect width="500" height="500" fill="url(#bgGrad)" />
+
+    <!-- Lush Tropical Green Foliage (Birds of Paradise background in photo) -->
+    <!-- Left Leaf -->
+    <path d="M 0 350 C 30 200 70 80 140 20 C 130 90 90 220 50 400 Z" fill="url(#leafGrad1)" opacity="0.85" />
+    <!-- Center Tall Leaf -->
+    <path d="M 120 400 C 160 160 220 40 290 10 C 260 90 230 250 190 420 Z" fill="url(#leafGrad2)" opacity="0.9" />
+    <path d="M 200 420 C 230 260 270 120 380 30 C 360 120 310 270 280 430 Z" fill="url(#leafGrad3)" opacity="0.85" />
+    <!-- Right Leaf Clusters -->
+    <path d="M 320 450 C 380 280 440 140 500 70 C 490 180 430 310 390 480 Z" fill="url(#leafGrad1)" opacity="0.9" />
+    <path d="M 380 420 C 430 300 470 180 500 120 C 490 240 450 350 420 460 Z" fill="url(#leafGrad2)" opacity="0.8" />
+
+    <!-- Soft Bokeh Ambient Lights -->
+    <circle cx="120" cy="90" r="45" fill="#fef3c7" opacity="0.08" />
+    <circle cx="430" cy="110" r="60" fill="#fef3c7" opacity="0.07" />
+    <circle cx="460" cy="240" r="35" fill="#ffedd5" opacity="0.06" />
+
+    <!-- Modern White Barrier / Couch Ledge Kapil is resting against -->
+    <path d="M 140 320 L 520 320 L 520 520 L 140 520 Z" fill="#f8fafc" />
+    <path d="M 140 320 L 520 320 L 520 330 L 140 330 Z" fill="#e2e8f0" />
+
+    <!-- Body / Shoulders in Plaid Shirt -->
+    <!-- Torso and Shoulders facing right (three-quarter profile) -->
+    <path d="M 20 500 C 30 380 90 320 200 300 C 270 310 340 330 460 380 L 460 520 L 20 520 Z" fill="url(#plaidPattern)" />
+    <!-- Shirt Placket & Fold Shadows -->
+    <path d="M 190 310 C 205 350 215 410 220 500" stroke="#161e18" stroke-width="6" stroke-linecap="round" fill="none" />
+    <!-- Shirt Collar Left -->
+    <path d="M 155 295 L 205 320 L 190 345 L 145 315 Z" fill="#1b251f" stroke="#3d5444" stroke-width="1.5" />
+    <!-- Shirt Collar Right -->
+    <path d="M 205 320 L 255 305 L 245 335 L 200 345 Z" fill="#243329" stroke="#3d5444" stroke-width="1.5" />
+    <!-- Left Arm extending resting on the white partition with yellow wrist watch -->
+    <path d="M 330 335 C 380 340 430 350 480 360 C 490 380 480 420 450 420 C 400 410 340 395 300 380 Z" fill="url(#plaidPattern)" />
+
+    <!-- Forearm & Wrist resting -->
+    <path d="M 440 365 C 470 375 490 390 500 410 C 490 425 470 425 450 415 Z" fill="url(#skinGrad)" />
+    <!-- Tan Watch Strap & Buckle -->
+    <rect x="445" y="375" width="14" height="38" rx="3" transform="rotate(15 450 390)" fill="#eab308" stroke="#ca8a04" stroke-width="1.5" />
+    <circle cx="452" cy="392" r="5" fill="#18181b" />
+
+    <!-- Neck with realistic shadow under jaw -->
+    <path d="M 175 270 L 240 270 L 235 325 L 175 315 Z" fill="url(#skinGrad)" />
+    <path d="M 175 270 C 190 285 220 290 240 280 L 235 305 C 215 315 190 305 175 295 Z" fill="url(#neckShadow)" opacity="0.65" />
+
+    <!-- Head & Face Profile (facing right, three-quarter angle) -->
+    <!-- Base Head shape -->
+    <path d="M 140 210 C 130 160 160 110 215 105 C 275 100 305 135 310 175 C 315 200 315 230 295 250 C 275 270 235 285 205 282 C 165 280 145 250 140 210 Z" fill="url(#skinGrad)" />
+
+    <!-- Jawline & Chin Definition -->
+    <path d="M 215 280 C 255 280 285 260 295 240 C 298 235 290 230 282 238 C 265 255 240 268 210 268 Z" fill="#9a6e4d" opacity="0.6" />
+
+    <!-- Ear & Gold Stud Earring -->
+    <path d="M 160 200 C 150 200 145 215 150 230 C 155 242 165 245 170 235 C 172 225 170 210 160 200 Z" fill="#b88c69" stroke="#9a6e4d" stroke-width="1.5" />
+    <circle cx="160" cy="235" r="3.5" fill="#facc15" stroke="#ca8a04" stroke-width="1" />
+
+    <!-- Mustache & Trimmed Facial Hair -->
+    <path d="M 265 242 C 275 238 290 238 298 245 C 292 249 280 252 268 248 Z" fill="#1c1615" />
+    <path d="M 280 265 C 285 265 292 263 295 260 C 292 264 285 266 280 265 Z" fill="#1c1615" opacity="0.7" />
+
+    <!-- Nose Profile -->
+    <path d="M 285 190 C 295 195 305 212 302 225 C 298 228 290 228 285 222 Z" fill="#caa282" />
+
+    <!-- Hair (Black textured modern haircut, side taper) -->
+    <path d="M 135 190 C 130 155 145 115 175 95 C 205 75 255 75 285 95 C 305 110 315 130 310 155 C 295 145 280 140 260 140 C 240 140 220 150 200 155 C 180 160 160 170 145 185 Z" fill="url(#hairGrad)" />
+    <!-- Hair Texture / Waves -->
+    <path d="M 160 115 C 190 90 240 90 270 105 C 250 100 210 100 180 115 Z" fill="#382e2c" />
+    <path d="M 190 85 C 230 75 260 85 285 100 C 265 92 235 85 200 90 Z" fill="#4a3d3a" opacity="0.7" />
+
+    <!-- Sideburn & Hairline Taper -->
+    <path d="M 148 185 L 155 210 L 162 205 L 160 180 Z" fill="#1a1413" />
+
+    <!-- Dark Sunglasses (Prominent feature from reference photo) -->
+    <!-- Sunglass Temple Frame (Arm) running to ear -->
+    <path d="M 160 195 L 235 190 L 235 198 L 160 200 Z" fill="#111827" stroke="#030712" stroke-width="1.5" />
+    <!-- Chrome / Silver hinge accent from photo -->
+    <rect x="228" y="190" width="6" height="8" rx="1" fill="#e2e8f0" stroke="#94a3b8" stroke-width="0.8" />
+
+    <!-- Sunglass Left Rim & Lens -->
+    <rect x="232" y="184" width="45" height="28" rx="5" transform="rotate(-3 254 198)" fill="url(#glassGrad)" stroke="#090d16" stroke-width="2.5" />
+    <!-- Lens Reflection Streak -->
+    <path d="M 235 186 L 255 185 L 245 210 L 235 210 Z" fill="url(#glassReflection)" />
+
+    <!-- Sunglass Bridge -->
+    <path d="M 276 195 C 282 193 286 193 290 196" stroke="#090d16" stroke-width="3.5" stroke-linecap="round" fill="none" />
+
+    <!-- Sunglass Right Rim & Lens (three-quarter perspective) -->
+    <path d="M 290 186 C 298 186 308 190 306 204 C 305 212 295 215 288 214 L 288 186 Z" fill="url(#glassGrad)" stroke="#090d16" stroke-width="2.5" />
+    <path d="M 290 188 L 298 188 L 294 212 L 290 212 Z" fill="url(#glassReflection)" />
+
+    <!-- Warm Highlight Accent -->
+    <path d="M 175 110 C 220 95 260 105 280 120" stroke="#fde047" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.35" />
+  </g>
+
+  <!-- Circular Outer Frame Ring Detail -->
+  <circle cx="250" cy="250" r="247" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.4" />
+</svg>
