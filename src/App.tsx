@@ -1298,16 +1298,16 @@ PROFILES
               {/* Action Buttons */}
               <div className="p-6 pt-0 border-t border-slate-200 dark:border-[#1e293b]/60 flex items-center gap-3 mt-2">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/KapilDhwaj/task-manager"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 inline-flex items-center justify-center gap-1.5 py-2 px-3 rounded bg-[#1e3a8a] hover:bg-[#2563eb] text-white text-xs font-mono font-medium transition-colors"
                 >
                   <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
-                  <span>Live Demo</span>
+                  <span>View Project</span>
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/KapilDhwaj/task-manager"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 inline-flex items-center justify-center gap-1.5 py-2 px-3 rounded bg-slate-100 dark:bg-[#171f33] hover:bg-slate-200 dark:hover:bg-[#222a3d] text-slate-800 dark:text-white border border-slate-300 dark:border-[#334155] text-xs font-mono font-medium transition-colors"
