@@ -1298,13 +1298,13 @@ PROFILES
               {/* Action Buttons */}
               <div className="p-6 pt-0 border-t border-slate-200 dark:border-[#1e293b]/60 flex items-center gap-3 mt-2">
                 <a
-                  href="https://github.com/KapilDhwaj/task-manager"
+                  href="https://task-manager-rho-ashy-29.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 inline-flex items-center justify-center gap-1.5 py-2 px-3 rounded bg-[#1e3a8a] hover:bg-[#2563eb] text-white text-xs font-mono font-medium transition-colors"
                 >
                   <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
-                  <span>View Project</span>
+                  <span>Live Demo</span>
                 </a>
                 <a
                   href="https://github.com/KapilDhwaj/task-manager"
