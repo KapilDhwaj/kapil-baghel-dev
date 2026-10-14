@@ -443,11 +443,11 @@ SOFT SKILLS
 - Confidence
 
 NOTABLE PROJECTS
-1. RailSync AI
-   Real-time railway network ETA prediction and congestion analyzer using
-   machine learning regression. Evaluates track occupancy telemetry,
-   historical route delays, and dynamic station dwell times.
-   Stack: Python, Scikit-learn, Pandas, NumPy
+1. Alien Invasion
+   Arcade space defense game featuring zero-latency HTML5 Canvas rendering,
+   real-time particle visual effects, dynamic enemy waves, upgradeable rocket
+   weapon systems, and synthesized audio via Web Audio API.
+   Stack: JavaScript, HTML5 Canvas, Web Audio API, Game Loop
 
 2. Webcmder
    Comprehensive web platform engineered for workflow management and candidate
@@ -1049,14 +1049,14 @@ PROFILES
 
           {/* 3 Projects Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            {/* PROJECT 1: RailSync AI */}
+            {/* PROJECT 1: Alien Invasion */}
             <article className="bg-white dark:bg-[#131b2e] border border-slate-200 dark:border-[#2d3a54] rounded-xl overflow-hidden flex flex-col justify-between hover:border-[#1e3a8a] dark:hover:border-[#3b82f6]/60 transition-all shadow-sm group">
               <div>
                 {/* Image Placeholder with bg-gray-300 pattern and accessible alt */}
                 <div
                   className="bg-gray-300 w-full h-48 relative overflow-hidden flex flex-col items-center justify-center p-4 border-b border-slate-200 dark:border-[#1e293b]"
                   role="img"
-                  aria-label="Image placeholder showing RailSync AI real-time railway telemetry and ETA prediction dashboard blueprint"
+                  aria-label="Image placeholder showing Alien Invasion arcade space defense game with particle visual effects"
                 >
                   <div className="w-full h-full bg-slate-900 dark:bg-[#0b1326] rounded border border-slate-700 dark:border-[#334155] p-3 flex flex-col justify-between text-white">
                     <div className="flex items-center justify-between border-b border-slate-800 pb-2">
@@ -1064,28 +1064,28 @@ PROFILES
                         <span className="w-2 h-2 rounded-full bg-rose-500" />
                         <span className="w-2 h-2 rounded-full bg-amber-500" />
                         <span className="w-2 h-2 rounded-full bg-emerald-500" />
-                        <span className="text-[10px] font-mono text-slate-400 ml-1">railsync :: ml-regression</span>
+                        <span className="text-[10px] font-mono text-slate-400 ml-1">alien-invasion :: canvas2d</span>
                       </div>
-                      <span className="text-[10px] font-mono text-[#90a8ff]">v2.4</span>
+                      <span className="text-[10px] font-mono text-emerald-400">PLAY READY</span>
                     </div>
 
                     <div className="grid grid-cols-3 gap-1.5 py-1 text-center font-mono text-[9px]">
                       <div className="bg-slate-800 dark:bg-[#171f33] p-1 rounded">
-                        <span className="text-slate-400 block">ETA P90</span>
-                        <span className="text-white font-bold">&plusmn;4 min</span>
+                        <span className="text-slate-400 block">WAVE</span>
+                        <span className="text-white font-bold">Endless Swarms</span>
                       </div>
                       <div className="bg-slate-800 dark:bg-[#171f33] p-1 rounded">
-                        <span className="text-slate-400 block">ACCURACY</span>
-                        <span className="text-[#90a8ff] font-bold">94.8%</span>
+                        <span className="text-slate-400 block">WEAPONS</span>
+                        <span className="text-[#90a8ff] font-bold">Missiles &amp; Bombs</span>
                       </div>
                       <div className="bg-slate-800 dark:bg-[#171f33] p-1 rounded">
-                        <span className="text-slate-400 block">TRANSIT</span>
-                        <span className="text-emerald-400 font-bold">ACTIVE</span>
+                        <span className="text-slate-400 block">AUDIO</span>
+                        <span className="text-emerald-400 font-bold">Web Audio API</span>
                       </div>
                     </div>
 
                     <div className="text-[10px] font-mono text-slate-500 truncate">
-                      predict(corridor_dwell, occupancy_vector)
+                      canvas.render() &rarr; particleEngine.update() &rarr; sfx.play()
                     </div>
                   </div>
                 </div>
@@ -1094,21 +1094,21 @@ PROFILES
                 <div className="p-6">
                   <div className="flex items-center justify-between mb-2">
                     <h3 className="text-lg font-bold text-slate-900 dark:text-white group-hover:text-[#1e3a8a] dark:group-hover:text-[#90a8ff] transition-colors">
-                      RailSync AI
+                      Alien Invasion
                     </h3>
                     <span className="px-2 py-0.5 rounded bg-blue-50 dark:bg-[#1e3a8a]/40 text-[#1e3a8a] dark:text-[#90a8ff] border border-blue-200 dark:border-[#2563eb]/30 text-[10px] font-mono font-medium">
-                      ML ENGINE
+                      WEB GAME
                     </span>
                   </div>
 
                   {/* 2-3 line description */}
                   <p className="text-sm text-slate-600 dark:text-[#c5c5d3] leading-relaxed mb-4">
-                    Real-time railway network ETA prediction and congestion analyzer engineered using machine learning regression. Evaluates track occupancy telemetry, historical route delays, and dynamic station dwell times to forecast arrival variance.
+                    Action-packed arcade space defense game built with HTML5 Canvas and real-time JavaScript physics. Features dynamic enemy waves, upgradeable rocket systems, reactive particle animations, and zero-latency Web Audio sound effects.
                   </p>
 
                   {/* Stack Badges */}
                   <div className="flex flex-wrap gap-1.5 mb-2 font-mono text-[11px]">
-                    {['Python', 'Scikit-learn', 'Pandas', 'NumPy'].map((tag) => (
+                    {['JavaScript', 'HTML5 Canvas', 'Web Audio API', 'Game Loop', 'Python'].map((tag) => (
                       <span key={tag} className="px-2 py-0.5 rounded bg-slate-100 dark:bg-[#171f33] border border-slate-300 dark:border-[#2d3a54] text-slate-800 dark:text-[#dae2fd]">
                         {tag}
                       </span>
@@ -1120,7 +1120,7 @@ PROFILES
               {/* Action Buttons */}
               <div className="p-6 pt-0 border-t border-slate-200 dark:border-[#1e293b]/60 flex items-center gap-3 mt-2">
                 <a
-                  href="https://github.com"
+                  href="https://alieninvasion-gold.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 inline-flex items-center justify-center gap-1.5 py-2 px-3 rounded bg-[#1e3a8a] hover:bg-[#2563eb] text-white text-xs font-mono font-medium transition-colors"
@@ -1129,7 +1129,7 @@ PROFILES
                   <span>Live Demo</span>
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/KapilDhwaj/Alien_Invasion"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 inline-flex items-center justify-center gap-1.5 py-2 px-3 rounded bg-slate-100 dark:bg-[#171f33] hover:bg-slate-200 dark:hover:bg-[#222a3d] text-slate-800 dark:text-white border border-slate-300 dark:border-[#334155] text-xs font-mono font-medium transition-colors"
