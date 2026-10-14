@@ -449,11 +449,11 @@ NOTABLE PROJECTS
    weapon systems, and synthesized audio via Web Audio API.
    Stack: JavaScript, HTML5 Canvas, Web Audio API, Game Loop
 
-2. Webcmder
-   Comprehensive web platform engineered for workflow management and candidate
-   assignment evaluation. Automated submission pipelines, structured mentor
-   rubrics, and dynamic role-based access.
-   Stack: React, Node.js, Express, Tailwind CSS
+2. Webcmd AI Platform
+   Autonomous browser automation and AI agent platform built on the Webcmd core
+   engine. Features interactive form filling, resume data extraction via pypdf,
+   real-time terminal log streaming, and automated job application workflows.
+   Stack: Python, FastAPI, AI Agents, Browser Automation, pypdf
 
 3. Full-Stack Task Management App
    High-concurrency task orchestration platform built with a normalized
@@ -1181,21 +1181,21 @@ PROFILES
                 <div className="p-6">
                   <div className="flex items-center justify-between mb-2">
                     <h3 className="text-lg font-bold text-slate-900 dark:text-white group-hover:text-[#1e3a8a] dark:group-hover:text-[#90a8ff] transition-colors">
-                      Webcmder
+                      Webcmd AI Platform
                     </h3>
                     <span className="px-2 py-0.5 rounded bg-blue-50 dark:bg-[#1e3a8a]/40 text-[#1e3a8a] dark:text-[#90a8ff] border border-blue-200 dark:border-[#2563eb]/30 text-[10px] font-mono font-medium">
-                      OPEN SOURCE
+                      AI AGENT
                     </span>
                   </div>
 
                   {/* 2-3 line description */}
                   <p className="text-sm text-slate-600 dark:text-[#c5c5d3] leading-relaxed mb-4">
-                    Open-source extension for the Webcmd browser infrastructure. Features an interactive AI agent dashboard, pypdf-based resume extraction, 1-click clipboard synchronization, and a LinkedIn Easy Apply automation runner.
+                    Autonomous browser automation and AI agent platform built on the Webcmd core engine. Features interactive form filling, resume data extraction via pypdf, real-time terminal log streaming, and automated job application workflows.
                   </p>
 
                   {/* Stack Badges */}
                   <div className="flex flex-wrap gap-1.5 mb-2 font-mono text-[11px]">
-                    {['Python', 'pypdf', 'AI Agents', 'Browser Automation', 'LinkedIn API'].map((tag) => (
+                    {['Python', 'FastAPI', 'AI Agents', 'Browser Automation', 'pypdf'].map((tag) => (
                       <span key={tag} className="px-2 py-0.5 rounded bg-slate-100 dark:bg-[#171f33] border border-slate-300 dark:border-[#2d3a54] text-slate-800 dark:text-[#dae2fd]">
                         {tag}
                       </span>
@@ -1207,13 +1207,13 @@ PROFILES
               {/* Action Buttons */}
               <div className="p-6 pt-0 border-t border-slate-200 dark:border-[#1e293b]/60 flex items-center gap-3 mt-2">
                 <a
-                  href="https://github.com/KapilDhwaj/webcmd"
+                  href="https://webcmd-auto-applier-python.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 inline-flex items-center justify-center gap-1.5 py-2 px-3 rounded bg-[#1e3a8a] hover:bg-[#2563eb] text-white text-xs font-mono font-medium transition-colors"
                 >
                   <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
-                  <span>View Project</span>
+                  <span>Live Demo</span>
                 </a>
                 <a
                   href="https://github.com/KapilDhwaj/webcmd"
